@@ -1,0 +1,15 @@
+[package]
+authors = ["BB-301 <fw3dg3@gmail.com>"]
+description = "A simple wrapper library that allows using the non-standard `getpass` C function, which is available on some UNIX-like systems, such as various GNU/Linux distributions and macOS, for instance."
+edition = "2021"
+keywords = ["getpass", "c wrapper", "rust"]
+license = "MIT"
+name = "c-getpass-in-rust"
+repository = "https://github.com/BB-301/c-getpass-in-rust"
+version = "0.1.0"
+
+[lib]
+name = "c_getpass"
+
+[dependencies]
+libc = "0.2.0"

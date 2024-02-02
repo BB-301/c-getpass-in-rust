@@ -1,0 +1,12 @@
+**/.DS_Store
+
+/build
+/target
+/Cargo.lock
+
+/.*
+!/.gitignore
+!/.clang-format
+
+/compile_flags.txt
+/tmp
